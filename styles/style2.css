@@ -140,9 +140,20 @@ body {
 
 .personal-link p {
     display: inline;
+
 }
 .main {
     background-color: purple;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.projects {
+    background-color: goldenrod;
+}
+
+.announcements {
+    background-color:lightslategrey;
 }
