@@ -147,7 +147,8 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 10% 90%;
 }
 
 .projects {
@@ -156,4 +157,12 @@ body {
 
 .announcements {
     background-color:lightslategrey;
+}
+
+.projects2 {
+    background-color: darkorange;
+}
+
+.announcements2 {
+    background-color: honeydew;
 }
