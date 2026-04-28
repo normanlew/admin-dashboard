@@ -163,6 +163,13 @@ body {
     grid-column: 2 / 3;
 }
 
+.projects-header p,
+.announcements-header p {
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
 .projects-list {
     background-color: darkorange;
     grid-column: 1 / 2;
