@@ -50,7 +50,8 @@ body {
     justify-content: flex-end;
 }
 
-.alert img {
+.alert img,
+.trend-img {
     height: 30px;
     width: 30px;
 }
@@ -185,14 +186,24 @@ body {
     grid-template-rows: 45% 10% 45%;
 }
 
-.announcements-list {
+.announcements-list,
+.trending-list {
     background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 5px 5px 5px;
 }
 
 .trending-header {
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
-.trending-list {
-    background-color: yellow;
+.trend {
+    display: flex;
+    align-items: center;
 }
