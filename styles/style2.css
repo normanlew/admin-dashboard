@@ -88,7 +88,7 @@ body {
 
 .interaction button {
     padding: 5px 20px;
-    background-color: blue;
+    background-color: rgb(19, 134, 235);
     color: white;
     border-radius: 20px;
     font-size: 1.2em;
@@ -262,13 +262,18 @@ body {
 }
 
 .trending-header {
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     justify-content: end;
+    padding-bottom: 5px;
 }
 
 .trend {
     display: flex;
     align-items: center;
+}
+
+.trend img {
+    margin-right: 15px;
 }
