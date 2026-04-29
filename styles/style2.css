@@ -157,21 +157,23 @@ body {
 }
 
 .main {
-    background-color: purple;
+    background-color: #DADADA;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 75% 25%;
-    grid-template-rows: 8% 84% 8%;
+    /* grid-template-rows: 8% 84% 8%; */
+    grid-template-rows: 8% 92%;
+    padding-bottom: 10px;
 }
 
 .projects-header {
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
     grid-column: 1 / 2;
 }
 
 .announcements-header {
-    background-color: lightslategrey;
+    /* background-color: lightslategrey; */
     grid-column: 2 / 3;
 }
 
@@ -183,13 +185,13 @@ body {
 }
 
 .projects-list {
-    background-color: darkorange;
+    /* background-color: darkorange; */
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
+    gap: 20px;
     padding: 5px 10px 0px 10px;
 }
 
@@ -199,15 +201,21 @@ body {
 }
 
 .individual-project {
-    border: 3px solid black;
+    background-color: white;
+    /* border: 3px solid black; */
+    border-left: 10px solid orange;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:space-between;
     padding: 15px 10px;
 }
 
 .project-interaction-icons {
     align-self: flex-end;
+    display: flex;
+    padding-right: 10px;
+    gap: 20px;
 }
 
 .announcements-trending-list {
