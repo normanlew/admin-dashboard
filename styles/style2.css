@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ html,
 body {
     height: 100vh;
     width: 100vw;
+    font-family: "Roboto" ;
 }
 
 .container {
@@ -74,6 +77,18 @@ body {
     height: 60px;
     width: 60px;
     margin-right: 20px;
+}
+
+.greeting-message {
+    font-weight: bold;
+}
+
+.greeting-message > p {
+    font-size: 12px;
+}
+
+.greeting-message > p + p{
+    font-size: 20px;
 }
 
 .interaction {
@@ -213,6 +228,10 @@ body {
     margin-bottom: 5px;
 }
 
+.project-description > p:first-child + p {
+    color: gray;
+}
+
 .individual-project {
     background-color: white;
     /* border: 3px solid black; */
@@ -250,7 +269,7 @@ body {
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
-    padding: 15px 10px;
+    padding: 30px 20px 30px 20px;
 }
 
 .announcement {
@@ -260,13 +279,15 @@ body {
 
 .announcement > p:first-child {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
+    margin-bottom: 2px;
     /* margin-bottom: 5px; */
 }
 
 .announcement > p:first-child + p {
     /* font-weight: bold; */
-    font-size: 11px;
+    font-size: 10px;
+    color: gray;
     /* margin-bottom: 5px; */
 }
 
@@ -294,6 +315,11 @@ body {
     display: flex;
     align-items: center;
     padding-left: 20px;
+    font-size: 12px;
+}
+
+.trend-message > p:first-child + p {
+    color: gray;
 }
 
 .trend img {
